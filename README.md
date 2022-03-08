@@ -1,4 +1,4 @@
-# FlyFastUpdate
+# FlyFast
 A Gorilla Tag mod for fast flight
 FlyFast a Fast flying Gorilla Tag mod now works in modded lobbies
 Features:
