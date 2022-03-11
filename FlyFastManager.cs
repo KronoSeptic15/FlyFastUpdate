@@ -31,7 +31,7 @@ namespace FlySomewhataAboveAverageSpeed
                 }
             if (grip && (Thumb1 || Thumb2))
             {
-                GorillaLocomotion.Player.Instance.bodyCollider.attachedRigidbody.velocity = GorillaLocomotion.Player.Instance.headCollider.transform.up * Time.deltaTime * Plugin.num2; // should make you fly up similar to an old quest mod
+                GorillaLocomotion.Player.Instance.bodyCollider.attachedRigidbody.velocity = Vector3.up * Time.deltaTime * Plugin.num2; // should make you fly up similar to an old quest mod
             }
             if(Thumb2)
             {
