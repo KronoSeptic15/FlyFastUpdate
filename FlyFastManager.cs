@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Text;
 using UnityEngine;
 using UnityEngine.XR;
 
@@ -29,8 +27,6 @@ namespace FlySomewhataAboveAverageSpeed{
                 rig = GorillaLocomotion.Player.Instance.bodyCollider.attachedRigidbody;
                 rig.AddForce(new Vector3(0, 25, 0), ForceMode.Impulse);
             }
-
-
             if (Thumb2){
                
                 Thumb2 = false;
