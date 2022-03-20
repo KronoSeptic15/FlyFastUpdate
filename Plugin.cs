@@ -8,10 +8,6 @@ using GorillaLocomotion;
 using BepInEx.Configuration;
 
 namespace FlySomewhataAboveAverageSpeed{
-    /// <summary>
-    /// This is your mod's main class.
-    /// </summary>
-    /* This attribute tells Utilla to look for [ModdedGameJoin] and [ModdedGameLeave] */
     [Description("An above average speed flight mod for PC gorilla tag, Works with HauntedModMenu :D")]
     [ModdedGamemode]
     [BepInDependency("org.legoandmars.gorillatag.utilla", "1.5.0")]
