@@ -41,9 +41,6 @@ namespace FlySomewhataAboveAverageSpeed{
         void OnGameInitialized(object sender, EventArgs e){
             headTransform = Player.Instance.headCollider.gameObject.transform;
             RB = Player.Instance.bodyCollider.attachedRigidbody;
-            GameObject plane = GameObject.CreatePrimitive(PrimitiveType.Plane);
-            GameObject comp = GameObject.Find("Level/");
-            plane.transform.SetParent(comp.transform, false);
         }
         [ModdedGamemodeJoin]
         public void OnJoin(string gamemode){
